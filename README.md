@@ -60,7 +60,6 @@ Input expression
 ## Requirements
  
 - **macOS** with a Metal-capable GPU (Apple Silicon or AMD/Intel discrete)
-- **Xcode** or the Xcode Command Line Tools
 - **Objective-C** (Foundation + Metal frameworks)
 ---
  
