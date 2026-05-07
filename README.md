@@ -65,14 +65,6 @@ Input expression
  
 ## Building
  
-### With Xcode
- 
-1. Create a new **macOS Command Line Tool** project in Xcode (Objective-C)
-2. Add all `.h` and `.m` files to the target
-3. Link the **Metal** framework (`Build Phases → Link Binary With Libraries`)
-4. Build and run (`⌘R`)
-### With clang directly
- 
 ```bash
 clang -fobjc-arc \
   main.m Lexer.m Parser.m AST.m Codegen.m \
